@@ -11,3 +11,22 @@ body {
 body {
     min-height: 100vh;
 }
+
+.cta-button {
+    display: inline-block;
+    padding: 14px 32px;
+    margin: 16px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #1a73e8;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #1558b0;
+}
