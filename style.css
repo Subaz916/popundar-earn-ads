@@ -32,28 +32,34 @@ body {
     background: #1558b0;
 }
 
+.ads-corner {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
 .banners {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .native-banner {
     display: flex;
-    justify-content: center;
-    padding: 20px 20px 0;
 }
 
 #container-ba6a18884cfefd60ed505372e1cc476d {
-    width: 300px;
-    min-height: 100px;
+    width: 160px;
+    min-height: 60px;
 }
 
 .banner-slot {
-    width: 300px;
-    height: 100px;
+    width: 160px;
+    height: 60px;
     flex: 0 0 auto;
 }
