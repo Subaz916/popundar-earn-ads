@@ -17,8 +17,10 @@ body {
 
 .cta-button {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.15em;
     width: 50vw;
     height: 50vh;
     margin: 0;
@@ -37,4 +39,12 @@ body {
 
 .cta-button:hover {
     background: #1558b0;
+}
+
+.cta-count {
+    font-size: 0.28em;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    opacity: 0.85;
+    font-variant-numeric: tabular-nums;
 }
