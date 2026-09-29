@@ -13,16 +13,17 @@ body {
 }
 
 .cta-button {
-    display: inline-block;
-    padding: 14px 32px;
-    margin: 16px;
+    display: block;
+    width: fit-content;
+    margin: 24px auto;
+    padding: 28px 72px;
     font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
     color: #ffffff;
     background: #1a73e8;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -48,11 +49,11 @@ body {
 
 #container-ba6a18884cfefd60ed505372e1cc476d {
     width: 300px;
-    min-height: 250px;
+    min-height: 100px;
 }
 
 .banner-slot {
     width: 300px;
-    height: 250px;
+    height: 100px;
     flex: 0 0 auto;
 }

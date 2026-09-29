@@ -1,6 +1,6 @@
 const AD_KEY = "057f1123458244cc5b4492a584f32396";
 const AD_WIDTH = 300;
-const AD_HEIGHT = 250;
+const AD_HEIGHT = 100;
 
 function buildAdFrame() {
     const html = `<!DOCTYPE html>
